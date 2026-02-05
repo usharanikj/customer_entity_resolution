@@ -77,7 +77,7 @@ Each stage is modular, testable, and explainable.
 * Extracting a **6-digit ZIP code** for geographic blocking
 
 **Why This Matters**
-Standardization wasn’t just for better matching — it was critical for **performance**. By converting noisy text fields into consistent, indexable formats (e.g., fixed-length phone numbers and ZIP codes), the pipeline transforms expensive text comparisons into **index-friendly joins**, enabling scalable execution on large datasets.
+Standardization wasn’t just for better matching, it was critical for **performance**. By converting noisy text fields into consistent, indexable formats (e.g., fixed-length phone numbers and ZIP codes), the pipeline transforms expensive text comparisons into **index-friendly joins**, enabling scalable execution on large datasets.
 
 **Output Table:** `stg_clean_accounts`
 
