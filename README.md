@@ -2,8 +2,8 @@
 
 ## 1. Project Overview
 
-**Objective**
-Design and implement a *production-grade entity resolution system* that identifies and clusters duplicate customer accounts into a single **Golden Customer ID**. The project simulates a real-world banking / financial services scenario where fragmented customer records exist due to channel silos, data-entry errors, and missing identifiers.
+**Objective:**
+Design and implement an *entity resolution system* that identifies and clusters multiple customer accounts into a single **Golden Customer ID**. The project simulates a real-world banking / financial services scenario where fragmented customer records exist due to channel silos, data-entry errors, and missing identifiers.
 
 **Core Problem**
 Multiple account records may belong to the same real-world individual, but:
@@ -96,6 +96,8 @@ Generate *candidate pairs* only when records share at least one strong signal:
 * Same Email Address
 * Same ZIP + First-name prefix
 
+-- Can add ZIP + YOB + Month of birth as well -- 
+  
 UNION-based blocking is used to:
 
 * Avoid duplicate comparisons
@@ -110,7 +112,7 @@ The candidate set is reduced by orders of magnitude while preserving true matche
 ---
 
 ### 4.3 Fuzzy Scoring & Match Classification
-**Extension Used:** pg_trgm
+**Extension (text matching algorithm) Used:** pg_trgm
 
 **Similarity Metrics** To handle typos and variations, the pipeline calculates Trigram Similarity scores for:
 
