@@ -1,4 +1,4 @@
-# Entity Resolution Pipeline: Account Deduplication (PostgreSQL)
+# Customer Entity Resolution (PostgreSQL)
 
 ## 1. Project Overview
 
