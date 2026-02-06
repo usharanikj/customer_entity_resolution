@@ -37,12 +37,12 @@ This project solves the problem using a **rule-driven, fuzzy-matching–aware en
 **Why This Matters for Analytics**
 Customer ID creation resolved ~25% initial under-linkage by consolidating 100K accounts into 80K distinct customers, ensuring all accounts of a customer were evaluated together.
 This prevented incorrect account-level decisions, where the same customer could appear both high and low-risk. This enabled accurate risk, marketing, servicing, and fraud assessments at the true customer level.
+
 ---
 
 ## 3. Solution Architecture
 
-The pipeline is intentionally structured to mirror **industry-standard Master Data Management (MDM)** systems.
-
+Below are the steps taken, from data cleaning and preparation to final Customer ID assignment.
 ```
 Raw Data
    ↓
