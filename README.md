@@ -230,6 +230,3 @@ For analytics teams, this pipeline directly enables:
 * Correct attribution of transactions to customers
 * Trustworthy segmentation for marketing and product analytics
 * Reduced rework caused by inconsistent customer definitions
-
-**Bottom-Line Impact**
-By resolving **20,000 redundant records**, this pipeline corrected a **25% overestimation of the active customer base**, directly preventing misallocation of marketing acquisition and retention budgets.
