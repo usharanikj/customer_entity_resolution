@@ -181,7 +181,7 @@ The pipeline includes an explicit **stewardship and audit view**:
 
 ### Measured Outcomes
 
-* **20,000 duplicate records resolved** into consolidated customer entities
+* **20,000 disparate records resolved** into consolidated customer entities
 * **~25% overestimation** of the active customer base corrected
 * With customer-level metrics now analytically valid, all risk, marketing, and servicing use cases can be accurately serviced at the individual customer level.
 
