@@ -172,7 +172,7 @@ The candidate set is reduced by orders of magnitude while preserving true matche
 
 ## 5. Quality Validation & Analytical Impact Review
 
-### Built-In Stewardship View
+### Accuracy review of customer matching algorithm 
 
 The pipeline includes an explicit **stewardship and audit view**:
 
@@ -180,13 +180,11 @@ The pipeline includes an explicit **stewardship and audit view**:
 * Results are intentionally limited (`LIMIT 100`) to support manual inspection
 * Full attribute visibility enables validation of complex merges
 
-This design allows analysts and data stewards to review only the **20,000 affected duplicate records**, without sifting through the ~80,000 unique accounts.
-
 ### Measured Outcomes
 
 * **20,000 duplicate records resolved** into consolidated customer entities
 * **~25% overestimation** of the active customer base corrected
-* Customer-level metrics (retention, CLV, engagement) become analytically valid
+* With customer-level metrics now analytically valid, all risk, marketing, and servicing use cases can be accurately serviced at the individual customer level.
 
 ---
 
