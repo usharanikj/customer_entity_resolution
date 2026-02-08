@@ -164,7 +164,7 @@ The candidate set is reduced by orders of magnitude while preserving true matche
 
 * **Stability:** This approach is deterministic and reproducible. Unlike "random" clustering, this ensures that as new data flows in, the Golden ID remains stable, preserving the integrity of longitudinal customer history.
 
-**Why This Matters for Analytics** This stage removes the "fragmentation" error. By assigning a single customer_id to multiple acct_id entries, we enable a Single Customer View, allowing the business to accurately calculate "Total Products per Customer" or "Lifetime Value" across multiple legacy accounts.
+**Why This Matters for Analytics** This stage removes the "fragmentation" error. By assigning a single customer_id to multiple acct_id entries, we enable a Single Customer View, allowing the business to accurately calculate risk, marketing, servicing, and fraud assessments at the true customer level.
 
 **Output Table:** `cust_clusters`
 
