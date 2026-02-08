@@ -28,7 +28,6 @@ This project solves the problem using a **rule-driven, fuzzy-matching–aware en
 
 **Observed Data Quality Signals (Exploratory Analysis)**
 
-* **Identity Overlap:** Exactly **20,000 records (20%)** are explicit duplicates (prefixed with `ACC_DUP`), intentionally designed to test resilience against duplicate and dirty data.
 * **Government ID Coverage:** Government ID is the strongest identifier when present, but it is frequently **missing or inconsistently formatted**, requiring fallback logic.
 * **Data Noise:** First and last names contain leading/trailing spaces, mixed casing, and punctuation (e.g., `"  Finn "` vs `"FINN"`).
 * **Phone Variability:** Phone numbers range from 10-digit local formats to longer international formats, often including symbols and country codes.
