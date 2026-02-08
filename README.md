@@ -203,9 +203,7 @@ The design scales to **millions of records** with minimal refactoring.
 
 * Data cleaning and standardization at scale
 
-* Designing deduplication logic that protects metric integrity
-
-* Fuzzy matching for real-world customer data
+* Fuzzy matching using `pg_trgm` for real-world customer data 
 
 * Translating business identity rules into SQL logic
 
@@ -213,9 +211,7 @@ The design scales to **millions of records** with minimal refactoring.
 
 * Advanced SQL (CTEs, recursion, window-free clustering)
 
-* Entity Resolution & Deduplication
-
-* Fuzzy matching using `pg_trgm`
+* Entity Resolution 
 
 * Graph modeling in relational databases
 
